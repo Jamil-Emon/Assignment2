@@ -161,6 +161,25 @@ hr {
     }
 }
 
+.flag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dateandtime {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.datetitle {
+    text-align: center;
+}
+
+.time {
+    color: gray;
+}
+
 @media screen and (max-width: 640px) {
     .topHeader {
         display: flex;
